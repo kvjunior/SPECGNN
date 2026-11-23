@@ -1,0 +1,10 @@
+# Neural baseline "ame" on the common graph input (docs/BASELINES.md).
+_base_: [../paths.yaml, selected/ame.yaml]
+data:
+  dataset: dappscan
+  safe_cap: 2000
+  evaluate_heldout: true
+baseline:
+  name: ame
+  seed: 42
+  params: {}

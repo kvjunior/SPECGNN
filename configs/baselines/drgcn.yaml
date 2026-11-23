@@ -1,0 +1,10 @@
+# Neural baseline "drgcn" on the common graph input (docs/BASELINES.md).
+_base_: [../paths.yaml, selected/drgcn.yaml]
+data:
+  dataset: dappscan
+  safe_cap: 2000
+  evaluate_heldout: true
+baseline:
+  name: drgcn
+  seed: 42
+  params: {}

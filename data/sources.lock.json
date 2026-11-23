@@ -1,0 +1,37 @@
+{
+ "chaliasos": {
+  "commit": "70efe79e8e71eb904d86d1a3f8818dfad2c42562",
+  "digest": "8341b34591900f1c914f44ee7e8c425b43f7ebe3dfb0f3021bcbc5187e995e2c",
+  "files": 327,
+  "repo": "StefanosChaliasos/sc-defi-security"
+ },
+ "dappscan": {
+  "commit": "66a56619c44770e05c2db600fa6468115ff0dcd5",
+  "digest": "0e88e72dff1358be87b5b52a0bb3e7416832239548b94889f2d4ee3d1c5ff1ca",
+  "files": 22444,
+  "repo": "InPlusLab/DAppSCAN"
+ },
+ "resource2": {
+  "digest": "1096dc53eb4a3487d87e52824da377c5b1709b250df37e5eb5a499e3051f0b75",
+  "files": 8491,
+  "manual": "Download 'Dataset_preprocessing' (Resource 2) from the Google Drive link in https://github.com/Messi-Q/Smart-Contract-Dataset (README, commit 7c152ffae158d2231a668ee6c35dadb1176ae427), unzip it, and rename the folder 'dataset_preprocessing_for_vulnerabilities' to '<raw>/resource2'."
+ },
+ "smartbugs_curated": {
+  "commit": "230e649123477eff332742a59a1c7cc6dc286cab",
+  "digest": "54e46766ac3fd392dff9e2f32de8ec958fccd2fbcf0369a5c9b3ec7d72c91ade",
+  "files": 153,
+  "repo": "smartbugs/smartbugs-curated"
+ },
+ "solidifi": {
+  "commit": "4b0573e1b3f7031396de6f48f7f3e7380222ad3a",
+  "digest": "aae16e5d50cacfbbfdcf574551b3c9ab29b5b1f84906c4d0a85acd33d8271d33",
+  "files": 700,
+  "repo": "DependableSystemsLab/SolidiFI-benchmark"
+ },
+ "web3bugs": {
+  "commit": "fd8544e84f0d6cea4b4d6a44ee62d8f7623648f4",
+  "digest": "09237b5b49f399b8c9cd60d304c1bef42c2a0b7f5d16c4dcd32121343dc45e17",
+  "files": 1,
+  "repo": "ZhangZhuoSJTU/Web3Bugs"
+ }
+}

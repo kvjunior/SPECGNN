@@ -1,0 +1,10 @@
+# Neural baseline "mando_hgt" on the common graph input (docs/BASELINES.md).
+_base_: [../paths.yaml, selected/mando_hgt.yaml]
+data:
+  dataset: dappscan
+  safe_cap: 2000
+  evaluate_heldout: true
+baseline:
+  name: mando_hgt
+  seed: 42
+  params: {}

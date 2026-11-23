@@ -1,0 +1,10 @@
+# Neural baseline "scvhunter" on the common graph input (docs/BASELINES.md).
+_base_: [../paths.yaml, selected/scvhunter.yaml]
+data:
+  dataset: dappscan
+  safe_cap: 2000
+  evaluate_heldout: true
+baseline:
+  name: scvhunter
+  seed: 42
+  params: {}

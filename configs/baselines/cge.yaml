@@ -1,0 +1,10 @@
+# Neural baseline "cge" on the common graph input (docs/BASELINES.md).
+_base_: [../paths.yaml, selected/cge.yaml]
+data:
+  dataset: dappscan
+  safe_cap: 2000
+  evaluate_heldout: true
+baseline:
+  name: cge
+  seed: 42
+  params: {}

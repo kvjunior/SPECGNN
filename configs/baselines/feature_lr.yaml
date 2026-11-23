@@ -1,0 +1,12 @@
+# Feature-based baseline "feature_lr": fixed hyperparameters (docs/BASELINES.md).
+_base_: [../paths.yaml]
+selection:
+  status: not_applicable
+data:
+  dataset: dappscan
+  safe_cap: 2000
+  evaluate_heldout: true
+baseline:
+  name: feature_lr
+  seed: 42
+  params: {}

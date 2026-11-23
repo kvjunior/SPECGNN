@@ -1,0 +1,12 @@
+# Untrained baseline "mythril" (deterministic; seed has no effect).
+_base_: [../paths.yaml]
+selection:
+  status: not_applicable
+data:
+  dataset: dappscan
+  safe_cap: 2000
+  evaluate_heldout: true
+baseline:
+  name: mythril
+  seed: 42
+  params: {}
